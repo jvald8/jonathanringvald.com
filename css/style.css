@@ -1,56 +1,51 @@
+
+/* show divs */
+/*div {
+  border-style: solid;
+  border-color: red;
+}*/
+
 #github_link {
-  position: fixed;
+  /*position: fixed;
   top: 0px;
-  right: 0px;
+  right: 0px;*/
+  padding-left: 25%;
   width: 200px;
   height: 82px;
 }
 
 #linkedin_link {
-  position: fixed;
+  /*position: fixed;
   top: 10px;
-  right: 200px;
+  right: 200px;*/
+  margin-bottom: 9px;
+  margin-left: 70px;
 }
 
 #summary {
-  position: fixed;
   top:100px;
   font-family: 'Abril Fatface';
   font-size: 30px;
 }
 
-.btn {
-  position: fixed;
-  top: 15px;
-  right: 500px;
-  background: #3498db;
-  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-  background-image: -o-linear-gradient(top, #3498db, #2980b9);
-  background-image: linear-gradient(to bottom, #3498db, #2980b9);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 30px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
-
-.btn:hover {
-  background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-  text-decoration: none;
-}
-
 #rickAndMortyGif {
-  position:fixed;
   top:250px;
   right: 300px;
+  width:50%;
+  margin-left: 25%;
+}
+
+#outerWrapper {
+  width: 66%;
+  margin-left: 18%;
+}
+
+#linkedinWrapper {
+  width:33%;
+  display:inline-block;
+}
+
+#githubWrapper {
+  width:43%;
+  display:inline-block;
 }
